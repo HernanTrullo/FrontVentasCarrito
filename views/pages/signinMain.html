@@ -1,0 +1,20 @@
+<div class="container-fluid d-flex justify-content-center align-items-center vh-100 mi-container-login" id="signinMain">    
+    <div class="position-relative">
+        <img src="./assets/images/logo.png" alt="Logo de Trivia Tech UTP" class="img-fluid mb-5 mt-5">
+        <form class="mi-form-login bg-white p-4 rounded-4" id="signinForm">          
+            <div class="mb-3">
+                <label for="email" class="form-label text-dark-emphasis fw-bold">Correo</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Correo del Usuario" autofocus required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label text-dark-emphasis fw-bold">Contraseña</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Contraseña del Usuario" required>
+            </div>
+            <div class="mb-3">
+                <a class="nav-link text-danger" role="button" id="signupBtn">Registrarse</a>
+            </div>
+            <button type="submit" class="btn btn-lg">Iniciar sesión</button>
+        </form>        
+        <div id="alertaError" class="alert alert-danger position-absolute w-100 text-center mt-1 d-none" role="alert" aria-live="assertive"></div>
+    </div>
+</div>

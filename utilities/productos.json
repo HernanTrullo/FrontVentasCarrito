@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "PC Gamer",
+        "precio": 1000,
+        "descripcion": "Una poderosa PC para jugar",
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 2,
+        "nombre": "Camiseta",
+        "precio": 100,
+        "descripcion": "Cómoda camiseta de algodón",
+        "categoria": "Ropa"
+    },
+    {
+        "id": 3,
+        "nombre": "Celular",
+        "precio": 500,
+        "descripcion": "Último modelo de smartphone con alta cámara",
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 4,
+        "nombre": "Pantalon",
+        "precio": 100,
+        "descripcion": "Cómodo pantalon de Jin",
+        "categoria": "Ropa"
+    }
+]
+
+

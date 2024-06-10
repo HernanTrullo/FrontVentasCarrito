@@ -1,0 +1,33 @@
+.mi-navbar{
+    background: linear-gradient(to right, var(--hover-color), var(--border-color));
+    box-shadow: 0px 5px 12px rgba(0,0,0,.4);
+}
+
+.mi-navbar img{
+    height: 64px;
+}
+
+.mi-navbar li a{
+    color: var(--text-color);
+}
+
+.mi-navbar .dropdown-menu{
+    background-color: var(--hover-color);
+}
+
+.mi-navbar a:hover{
+    background-color: var(--hover-color);
+    color: var(--text-color-hover);
+    border-color: var(--border-color);
+    border-radius: 0.375rem;
+}
+
+
+.mi-navbar a:hover,
+.mi-navbar a:focus {
+    background-color: var(--hover-color); 
+    color: var(--text-color-hover);
+    border-color: var(--border-color);
+    border-radius: 0.375rem;
+}
+

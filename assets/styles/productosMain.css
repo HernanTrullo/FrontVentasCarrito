@@ -1,0 +1,14 @@
+.mi-main .btn[class="btn"]{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.mi-main .btn[class="btn"]:hover{
+    background-color: var(--hover-color);
+    color: var(--text-color-hover);
+    border-color: var(--border-color);
+}
+
+.mi-main td{
+    cursor: pointer;
+}
